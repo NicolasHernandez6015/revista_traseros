@@ -21,7 +21,7 @@
 :root {
   --color-default: #fafafa;
   --color-primary: #27a776;
-  --color-secondary: #161718;
+  --color-secondary: #fafafa;
 }
 
 /* Smooth scroll behavior */
@@ -62,6 +62,10 @@ h6 {
 --------------------------------------------------------------*/
 .section-header {
   padding-bottom: 40px;
+}
+
+.section-header .caca {
+  max-width: 2% !important;
 }
 
 .section-header h2 {
